@@ -1,0 +1,119 @@
+.autocomplete-suggestion-active {
+  background-color: #f1f1f1;
+}
+ul.autocomplete-suggestions {
+  padding: 0px;
+}
+.autocomplete-suggestions > li {
+  list-style: none;
+  display: block;
+  text-align: left;
+  line-height: 2;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.liClass {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  padding: 0;
+}
+
+.App {
+  width: 30%;
+  min-width: 456px;
+  margin: auto;
+  margin-top: 50px;
+}
+.App input {
+  display: block;
+  width: 100%;
+  margin: auto;
+  border: none;
+  height: 35px;
+  line-height: 3;
+  color: #111111;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.inputClass {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  height: 34px;
+  font-size: 16px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  width: 100%;
+}
+
+.subWrapperSuggestion {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border: 0;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 4px 6px 0 rgba(32, 33, 36, 0.28);
+  padding-bottom: 4px;
+  overflow: hidden;
+}
+
+.wrapperSuggestion {
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  margin-top: -1px;
+  z-index: 3;
+  cursor: default;
+  -webkit-user-select: none;
+}
+
+.wrapperAutoComplete {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 6px;
+  width: 484px;
+}
+
+.subWrapperAutoComplete {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: rgba(223, 225, 229, 0);
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 0px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 482px;
+}
+
+.subWrapperInput {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.suggestionUL {
+  flex: auto;
+  padding-bottom: 8px;
+}
