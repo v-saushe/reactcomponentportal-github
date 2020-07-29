@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the component 1`] = `
+<Fragment>
+  <div
+    className="accordion__section"
+  >
+    <button
+      className="accordion"
+      onClick={[Function]}
+    >
+      <p
+        className="accordion__title"
+      >
+        From where I can login and avail services.
+      </p>
+      <Chevron
+        className="accordion__icon"
+        fill="#777"
+        width={10}
+      />
+    </button>
+    <div
+      className="accordion__content"
+      style={
+        Object {
+          "maxHeight": "0px",
+        }
+      }
+    >
+      <div
+        className="accordion__text"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Currently theres no login facility available",
+          }
+        }
+      />
+    </div>
+  </div>
+</Fragment>
+`;

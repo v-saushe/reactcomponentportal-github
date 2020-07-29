@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the component 1`] = `
+<BrowserRouter>
+  <div
+    className=""
+  >
+    <div
+      className="wrapper"
+    >
+      <SideNavBar />
+      <div
+        id="content"
+      >
+        <NavBar />
+        <div
+          className="content-padding container"
+        >
+          <div
+            style={
+              Object {
+                "minHeight": "350px",
+              }
+            }
+          >
+            <Switch>
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/"
+              />
+              <Route
+                component={[Function]}
+                path="/tab"
+              />
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/autocomplete"
+              />
+              <Route
+                exact={true}
+                path="/accordion"
+                render={[Function]}
+              />
+              <Route
+                path="/counters"
+                render={[Function]}
+              />
+              <Route
+                component={[Function]}
+              />
+            </Switch>
+          </div>
+          <div
+            className="line"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</BrowserRouter>
+`;

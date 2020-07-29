@@ -1,0 +1,45 @@
+{
+  "roots": [
+    "<rootDir>/src"
+  ],
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|js|ts|tsx)$",
+  "testPathIgnorePatterns": [
+    "./src/__tests__/setupEnzyme.ts"
+  ],
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx,ts,tsx}", 
+    "!src/**/*.test.{js,jsx,ts,tsx}",
+    "!src/index.tsx",
+    "!/node_modules/"
+  ],
+  "coverageThreshold": {
+    "global": {
+        "branches": 0,
+        "functions": 0,
+        "lines": 0,
+        "statements": 0
+    }
+  },
+  "verbose": true,
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json",
+    "node"
+  ],
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
+  "setupFiles": [
+    "<rootDir>/config/test/setupTests.ts"
+  ],
+  "moduleNameMapper": { 
+    "\\.(css|less|scss|sass)$": "identity-obj-proxy" 
+  }
+}
