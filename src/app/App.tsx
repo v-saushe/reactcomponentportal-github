@@ -59,7 +59,7 @@ const renderMultipleAccordion = () => {
   const accordionTitleOne: string = 'From where I can login and avail services.';
   const accordionContentOne: string = 'Currently theres no login facility available.';
 
-  const accordionTitleTwo: string = 'How can I register for the Website';
+  const accordionTitleTwo: string = 'How can I register for the Website.';
   const accordionContenTwo: string = 'Register for the website will come soon.';
 
 
