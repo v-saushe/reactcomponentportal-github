@@ -5,7 +5,7 @@ Repo used as an example how to configuring a React project without create-react-
 Project is all about showing up of comoponents used in the application.
 
 # Build Pipeline Status.
-[![Build Status](https://projectdeployment05.visualstudio.com/ReactComponentPortal-Github/_apis/build/status/v-saushe.reactcomponentportal-github?branchName=master)](https://projectdeployment05.visualstudio.com/ReactComponentPortal-Github/_build/latest?definitionId=10&branchName=master)
+https://projectdeployment05.visualstudio.com/ReactComponentPortal-Github/_apis/build/status/v-saushe.reactcomponentportal-github?branchName=master
 
 ## To Build and Run: 
 1. Run `npm install` or yarn on the root of the repository.
