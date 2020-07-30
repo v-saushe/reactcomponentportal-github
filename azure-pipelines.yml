@@ -24,8 +24,8 @@ steps:
 - task: ArchiveFiles@2
   displayName: 'Archive the build files'
   inputs:
-    rootFolderOrFile: 'public'
-    includeRootFolder: true
+    rootFolderOrFile: 'reactcomponentportal-github/public'
+    includeRootFolder: false
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
