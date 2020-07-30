@@ -20,3 +20,14 @@ steps:
     npm run build
     npm run test
   displayName: 'Install the Package dependencies, Build Dependencies and Test the application'
+
+- task: ArchiveFiles@2
+  displayName: 'Archive the build files'
+  inputs:
+    rootFolderOrFile: 'public'
+    includeRootFolder: true
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
+
+
