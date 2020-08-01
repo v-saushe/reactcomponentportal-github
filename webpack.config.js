@@ -1,21 +1,34 @@
-const path = require('path');
+const path = require('path'); 
+const HtmlWebpackPlugin = require('html-webpack-plugin'); 
 
 module.exports = {
+  // plugins: [
+  //   new HtmlWebpackPlugin({ 
+  //       title: 'My Awesome application',
+  //       myPageHeader: 'Hello World', 
+  //       filename: './index.html' //relative to root of the application
+  //   })
+  // ],
+  // mode: 'development',
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
+ 
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     compress: true,
     port: 3000,
   },
-  entry: path.resolve(__dirname, 'src', 'index.tsx'),
+  entry: 
+  [
+    path.resolve(__dirname, 'src', 'index.tsx')
+  ],
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
-  module: {
-    rules: [
+  module: { 
+    rules: [ 
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -39,6 +52,18 @@ module.exports = {
         test: /\.js$/,
         loader: 'source-map-loader',
       },
+      {
+        test: /\.html$/,
+        use: [ {
+          loader: 'html-loader',
+          options: {
+            minimize: true
+          }
+        }],
+      }
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'public', 'index.html') })
+  ]
 };
