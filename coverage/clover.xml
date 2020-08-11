@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1595973605924" clover="3.2.0">
-  <project timestamp="1595973605924" name="All files">
+<coverage generated="1597143410672" clover="3.2.0">
+  <project timestamp="1597143410672" name="All files">
     <metrics statements="156" coveredstatements="75" conditionals="40" coveredconditionals="3" methods="44" coveredmethods="4" elements="240" coveredelements="82" complexity="0" loc="156" ncloc="156" packages="12" files="12" classes="12"/>
     <package name="app">
       <metrics statements="28" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="1"/>
-      <file name="App.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\App.tsx">
+      <file name="App.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\App.tsx">
         <metrics statements="28" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -38,7 +38,7 @@
     </package>
     <package name="app.Accordion">
       <metrics statements="18" coveredstatements="17" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="2"/>
-      <file name="Accordion.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\Accordion\Accordion.tsx">
+      <file name="Accordion.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\Accordion\Accordion.tsx">
         <metrics statements="18" coveredstatements="17" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -62,7 +62,7 @@
     </package>
     <package name="app.Autocomplete">
       <metrics statements="40" coveredstatements="4" conditionals="18" coveredconditionals="0" methods="10" coveredmethods="0"/>
-      <file name="Autocomplete.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\Autocomplete\Autocomplete.tsx">
+      <file name="Autocomplete.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\Autocomplete\Autocomplete.tsx">
         <metrics statements="40" coveredstatements="4" conditionals="18" coveredconditionals="0" methods="10" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -108,7 +108,7 @@
     </package>
     <package name="app.Chevron">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="Chevron.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\Chevron\Chevron.tsx">
+      <file name="Chevron.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\Chevron\Chevron.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
@@ -117,7 +117,7 @@
     </package>
     <package name="app.Counter">
       <metrics statements="13" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
-      <file name="Counter.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\Counter\Counter.tsx">
+      <file name="Counter.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\Counter\Counter.tsx">
         <metrics statements="13" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -136,7 +136,7 @@
     </package>
     <package name="app.Error">
       <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="Error.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\Error\Error.tsx">
+      <file name="Error.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\Error\Error.tsx">
         <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -146,7 +146,7 @@
     </package>
     <package name="app.NavBar">
       <metrics statements="14" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
-      <file name="NavBar.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\NavBar\NavBar.tsx">
+      <file name="NavBar.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\NavBar\NavBar.tsx">
         <metrics statements="14" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -166,7 +166,7 @@
     </package>
     <package name="app.Pagination">
       <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="Pagination.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\Pagination\Pagination.tsx">
+      <file name="Pagination.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\Pagination\Pagination.tsx">
         <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -175,7 +175,7 @@
     </package>
     <package name="app.SideNavBar">
       <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="SideNavBar.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\SideNavBar\SideNavBar.tsx">
+      <file name="SideNavBar.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\SideNavBar\SideNavBar.tsx">
         <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -187,7 +187,7 @@
     </package>
     <package name="app.Tab">
       <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="Tab.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\Tab\Tab.tsx">
+      <file name="Tab.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\Tab\Tab.tsx">
         <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -197,7 +197,7 @@
     </package>
     <package name="app.TabContent">
       <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="TabContent.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\TabContent\TabContent.tsx">
+      <file name="TabContent.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\TabContent\TabContent.tsx">
         <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -207,7 +207,7 @@
     </package>
     <package name="app.Tabs">
       <metrics statements="19" coveredstatements="7" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="0"/>
-      <file name="Tabs.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\react-babel-typescript-master\src\app\Tabs\Tabs.tsx">
+      <file name="Tabs.tsx" path="C:\D\SaurabhShekhar\Projects\Personal\GIT\reactcomponentportal-github\src\app\Tabs\Tabs.tsx">
         <metrics statements="19" coveredstatements="7" conditionals="6" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
